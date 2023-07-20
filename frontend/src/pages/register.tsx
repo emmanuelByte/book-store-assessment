@@ -1,7 +1,7 @@
 /* eslint-disable @typescript-eslint/no-misused-promises */
 import { useEffect, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
-import { SuccessResponse, loginAPI, registerAPI } from "../api/user.api";
+import { registerAPI } from "../api/user.api";
 import { toast } from "react-toastify";
 
 export default function Register() {

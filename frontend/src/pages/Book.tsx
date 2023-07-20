@@ -34,7 +34,7 @@ const Book = () => {
     })();
   }, [id]);
   const [books, setBooks] = useState<dataType[]>([]);
-  const [booksData, setBooksData] = useState<dataType[]>([]);
+  const [booksData, _] = useState<dataType[]>([]);
   const [booksLoaded, setBooksLoaded] = useState<number>(BOOKS_PER_FETCH);
   const hasMoreBooks = booksLoaded < books.length;
 

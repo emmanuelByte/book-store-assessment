@@ -2,7 +2,7 @@
 /* eslint-disable @typescript-eslint/require-await */
 import React from "react";
 import Navbar from "../components/NavBar";
-import { Link, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import { addBookAPI } from "../api/book.api";
 import { toast } from "react-toastify";
 
