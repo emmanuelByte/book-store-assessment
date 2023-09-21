@@ -10,8 +10,7 @@
     "build": "tsc",
     "test": "yarn build && mocha -r ts-node/register $(find . -name '*.test.ts') --exit",
     "lint": "eslint src/**/*.ts",
-    "format": "eslint src/**/*.ts --fix",
-    "prepare": "husky install"
+    "format": "eslint src/**/*.ts --fix"
   },
   "keywords": [],
   "author": "",
