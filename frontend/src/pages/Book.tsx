@@ -27,6 +27,7 @@ const Book = () => {
       console.log(data);
       setBook(data);
 
+      //
       const resb = (await getBooks()) as SuccessResponse;
       const bookData = resb.data as dataType[];
 
